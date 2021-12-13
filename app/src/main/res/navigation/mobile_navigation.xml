@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.siamsoft.nav_drawwer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.siamsoft.nav_drawwer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.siamsoft.nav_drawwer.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_edit"
+        android:name="com.siamsoft.nav_drawwer.New"
+        android:label="new_fragment"
+        tools:layout="@layout/new_fragment" />
+    <fragment
+        android:id="@+id/nav_sharingan"
+        android:name="com.siamsoft.nav_drawwer.ui.haha"
+        android:label="haha_fragment"
+        tools:layout="@layout/haha_fragment" />
+    <fragment
+        android:id="@+id/nav_splash"
+        android:name="com.siamsoft.nav_drawwer.ui.Splash"
+        android:label="splash_fragment"
+        tools:layout="@layout/splash_fragment" />
+</navigation>
